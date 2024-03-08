@@ -1,6 +1,6 @@
 # Portfolio Website v1
 created in React with tailwindcss and vite.
-
+```
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
@@ -22,3 +22,4 @@ created in React with tailwindcss and vite.
     "tailwindcss": "^3.4.1",
     "vite": "^5.1.0"
   }
+```
