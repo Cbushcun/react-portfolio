@@ -1,5 +1,5 @@
 import { useRef } from "react";
-import nameIcon from "../assets/icons/personal-icon.png";
+import nameIcon from "/src/assets/icons/personal-icon.png";
 import { Link } from "react-scroll";
 
 function NavBar() {

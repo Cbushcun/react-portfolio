@@ -1,3 +1,5 @@
+import "./ScrollingSkills.css";
+
 function ScrollingSkills() {
   return (
     <div className="scroller">

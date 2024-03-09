@@ -1,7 +1,7 @@
 import { useState } from "react";
 import projectsData from "./projects.json";
-import ProjectDetails from "../../components/ProjectDetails";
-import ProjectThumbnail from "../../components/ProjectThumbnail";
+import ProjectDetails from "/src/components/ProjectDetails";
+import ProjectThumbnail from "/src/components/ProjectThumbnail";
 
 function ProjectsPage() {
   // fix prop setting on press when opening details pane
