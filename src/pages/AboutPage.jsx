@@ -1,4 +1,4 @@
-import { useEffect, useRef } from "react";
+import { useRef } from "react";
 
 // logo imports
 import ScrollingSkills from "/src/components/ScrollingSkills/ScrollingSkills";
@@ -25,24 +25,6 @@ function AboutPage() {
       docListRef.current.classList.toggle("-translate-y-full");
     }
   }
-
-  useEffect(() => {
-    const scrollers = document.querySelectorAll(".scroller");
-
-    // sets scrolling animation for the list in component
-    scrollers.forEach((scroller) => {
-      scroller.setAttribute("data-animated", true); // set data-animated to true for reduce motion friendliness
-      const scrollerInner = scroller.querySelector(".scroller_inner");
-      const scrollerContent = Array.from(scrollerInner.children);
-
-      scrollerContent.forEach((item) => {
-        //Duplicates to give infinite effect, aria-hidden for screen reader friendliness
-        const duplicatedItem = item.cloneNode(true);
-        duplicatedItem.setAttribute("aria-hidden", true);
-        scrollerInner.appendChild(duplicatedItem);
-      });
-    });
-  }, []);
 
   return (
     <section
