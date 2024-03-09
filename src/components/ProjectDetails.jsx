@@ -7,7 +7,7 @@ function ProjectDetails({
   onClick,
 }) {
   return (
-    <div className="font-inconsolata absolute mt-20 flex h-4/6 min-h-fit w-3/12 min-w-96 flex-col place-self-center rounded-lg bg-slate-800 md:translate-x-24 md:translate-y-20">
+    <div className="absolute mt-20 flex h-4/6 min-h-fit w-3/12 min-w-96 flex-col place-self-center rounded-lg bg-slate-800 md:translate-x-24 md:translate-y-20">
       <div className="flex h-10 items-center rounded-t-lg bg-slate-900 pl-4 shadow-inner shadow-white/15">
         <i className="fa-solid fa-folder mr-3"></i>
         <p>Project Properties</p>

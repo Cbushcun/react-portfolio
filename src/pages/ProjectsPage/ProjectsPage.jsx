@@ -23,7 +23,7 @@ function ProjectsPage() {
   return (
     <section
       id="projects"
-      className="font-inconsolata h-screen w-screen bg-stone-900 p-5 lg:pt-12"
+      className="h-screen w-screen bg-stone-900 p-5 lg:pt-12"
     >
       <div className="mx-auto flex h-5/6 min-h-[200px] w-full max-w-5xl flex-col rounded-lg bg-slate-900 pt-3 text-stone-200 shadow-inner shadow-white/15 lg:h-[95%]">
         <div className="flex px-2">

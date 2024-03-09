@@ -28,7 +28,7 @@ function LandingPage() {
         style={{ backgroundImage: `url(${backgroundImage})` }}
       >
         <div className="grid h-full w-full grid-cols-12 grid-rows-6 justify-between overflow-hidden pt-14 backdrop-blur">
-          <div className="font-inconsolata col-span-9 ml-10 mt-5 sm:col-span-8 sm:row-start-2 lg:col-start-2 lg:row-span-2 lg:row-start-3 xl:col-start-3 2xl:col-start-4">
+          <div className="col-span-9 ml-10 mt-5 sm:col-span-8 sm:row-start-2 lg:col-start-2 lg:row-span-2 lg:row-start-3 xl:col-start-3 2xl:col-start-4">
             <h6 className="text-md text-green-400">HELLO, MY NAME IS...</h6>
             <h1 className="text-7xl font-bold">CHRISTIAN BUSH</h1>
             <h4 className="text-3xl font-thin text-green-400">

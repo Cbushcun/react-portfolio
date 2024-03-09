@@ -36,7 +36,7 @@ function ContactForm() {
     <form
       onSubmit={handleSubmit(onSubmit)}
       method="POST"
-      className="font-inconsolata flex max-w-lg flex-col gap-5"
+      className="flex max-w-lg flex-col gap-5"
     >
       <div className="max-w-fit place-self-center border-b-2 border-green-400 px-5 pb-3 text-center">
         <h1 className="text-5xl font-semibold">Contact Me</h1>

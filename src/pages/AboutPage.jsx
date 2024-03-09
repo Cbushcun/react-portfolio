@@ -1,4 +1,4 @@
-import { useEffect, useRef } from "react";
+import { useRef } from "react";
 
 // logo imports
 import ScrollingSkills from "/src/components/ScrollingSkills/ScrollingSkills";
@@ -26,28 +26,10 @@ function AboutPage() {
     }
   }
 
-  useEffect(() => {
-    const scrollers = document.querySelectorAll(".scroller");
-
-    // sets scrolling animation for the list in component
-    scrollers.forEach((scroller) => {
-      scroller.setAttribute("data-animated", true); // set data-animated to true for reduce motion friendliness
-      const scrollerInner = scroller.querySelector(".scroller_inner");
-      const scrollerContent = Array.from(scrollerInner.children);
-
-      scrollerContent.forEach((item) => {
-        //Duplicates to give infinite effect, aria-hidden for screen reader friendliness
-        const duplicatedItem = item.cloneNode(true);
-        duplicatedItem.setAttribute("aria-hidden", true);
-        scrollerInner.appendChild(duplicatedItem);
-      });
-    });
-  }, []);
-
   return (
     <section
       id="about"
-      className="font-inconsolata grid-auto-rows mx-auto grid w-screen max-w-7xl auto-rows-min gap-5 p-3 text-stone-200 lg:grid-cols-2 lg:py-10"
+      className="grid-auto-rows mx-auto grid w-screen max-w-7xl auto-rows-min gap-5 p-3 text-stone-200 lg:grid-cols-2 lg:py-10"
     >
       <div className="flex">
         <div className="flex min-w-14 max-w-14 justify-center overflow-hidden bg-green-400">

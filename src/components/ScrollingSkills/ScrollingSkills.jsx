@@ -1,6 +1,25 @@
 import "./ScrollingSkills.css";
+import { useEffect } from "react";
 
 function ScrollingSkills() {
+  useEffect(() => {
+    const scrollers = document.querySelectorAll(".scroller");
+
+    // sets scrolling animation for the list in component
+    scrollers.forEach((scroller) => {
+      scroller.setAttribute("data-animated", true); // add if for reduce motion implement
+      const scrollerInner = scroller.querySelector(".scroller_inner");
+      const scrollerContent = Array.from(scrollerInner.children);
+
+      scrollerContent.forEach((item) => {
+        //Duplicates to give infinite effect, aria-hidden for screen reader friendliness
+        const duplicatedItem = item.cloneNode(true);
+        duplicatedItem.setAttribute("aria-hidden", true);
+        scrollerInner.appendChild(duplicatedItem);
+      });
+    });
+  }, []);
+
   return (
     <div className="scroller">
       <ul className="scroller_inner">

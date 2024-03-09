@@ -14,9 +14,9 @@ function NavBar() {
   return (
     <nav
       id="navBar"
-      className="fixed top-0 z-[100] flex w-screen flex-col overflow-hidden text-stone-200"
+      className="fixed top-0 z-[100] flex w-screen flex-col overflow-hidden font-bold text-stone-200"
     >
-      <div className="flex justify-between bg-slate-950 lg:bg-transparent">
+      <div className="flex justify-between bg-slate-950 text-xl lg:bg-transparent">
         <Link
           to="landing"
           spy={true}
@@ -71,7 +71,7 @@ function NavBar() {
       <ul
         ref={navListRef}
         id="navList"
-        className="fixed top-[53px] -z-50 w-full -translate-y-full bg-slate-900 text-center  text-3xl transition duration-150 lg:top-0"
+        className="fixed top-[53px] -z-50 w-full -translate-y-full bg-slate-900 text-center  text-3xl font-semibold transition duration-150 lg:top-0"
       >
         <li>
           <Link
