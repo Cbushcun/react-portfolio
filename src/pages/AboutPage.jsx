@@ -1,20 +1,20 @@
 import { useRef } from "react";
 
 // logo imports
-import ScrollingSkills from "/src/components/ScrollingSkills/ScrollingSkills";
-import bootstrapLogo from "/src/assets/icons/bootstrap-logo-shadow.png";
-import cssLogo from "/src/assets/icons/color-css3.svg";
-import githubLogo from "/src/assets/icons/color-github.svg";
-import jsLogo from "/src/assets/icons/color-js.svg";
-import reactLogo from "/src/assets/icons/color-react.svg";
-import tailwindLogo from "/src/assets/icons/color-tailwind.svg";
-import tsLogo from "/src/assets/icons/color-ts.svg";
-import viteLogo from "/src/assets/icons/color-vite.svg";
-import vscodeLogo from "/src/assets/icons/color-vscode.svg";
-import javaLogo from "/src/assets/icons/color-words-java.svg";
-import pythonLogo from "/src/assets/icons/color-python.svg";
-import sassLogo from "/src/assets/icons/color-words-sass.svg";
-import sqlLogo from "/src/assets/icons/color-words-sql-file.svg";
+import ScrollingSkills from "../components/ScrollingSkills/ScrollingSkills";
+import bootstrapLogo from "../assets/icons/bootstrap-logo-shadow.png";
+import cssLogo from "../assets/icons/color-css3.svg";
+import githubLogo from "../assets/icons/color-github.svg";
+import jsLogo from "../assets/icons/color-js.svg";
+import reactLogo from "../assets/icons/color-react.svg";
+import tailwindLogo from "../assets/icons/color-tailwind.svg";
+import tsLogo from "../assets/icons/color-ts.svg";
+import viteLogo from "../assets/icons/color-vite.svg";
+import vscodeLogo from "../assets/icons/color-vscode.svg";
+import javaLogo from "../assets/icons/color-words-java.svg";
+import pythonLogo from "../assets/icons/color-python.svg";
+import sassLogo from "../assets/icons/color-words-sass.svg";
+import sqlLogo from "../assets/icons/color-words-sql-file.svg";
 
 function AboutPage() {
   const iconHeight = "h-24";

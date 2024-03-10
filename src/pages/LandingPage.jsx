@@ -1,5 +1,5 @@
-import backgroundImage from "/src/assets/images/background1.jpg";
-import portrait from "/src/assets/images/portrait.jpg";
+import backgroundImage from "../assets/images/background1.jpg";
+import portrait from "../assets/images/portrait.jpg";
 import { Link } from "react-scroll";
 import { useState, useEffect } from "react";
 

@@ -1,4 +1,4 @@
-import "/src/assets/project-thumbnails/url-shortener.png";
+import "../assets/project-thumbnails/url-shortener.png";
 
 function ProjectThumbnail({ handleClick, project }) {
   {

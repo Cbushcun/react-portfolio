@@ -5,7 +5,7 @@
       "desc": "A simple URL shortening app created using React to familiarize myself with GET and POST requests and what to expect of them.",
       "technologies": "React, Boostsrap, Axios, TinyURL API",
       "designer": "Myself",
-      "imgLink": "/src/assets/project-thumbnails/url-shortener.png",
+      "imgLink": "../../assets/project-thumbnails/url-shortener.png",
       "repoLink": "https://github.com/Cbushcun/react-link-shortener-site"
     }
   ]
