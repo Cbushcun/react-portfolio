@@ -140,7 +140,7 @@ function AboutPage() {
             >
               <li className="flex">
                 <a
-                  href="https://drive.google.com/file/d/1_ohujF5ohSpWnw3Fd3ZzSenXruOXWCVb/view"
+                  href="https://drive.google.com/file/d/1QHWGP9-4A79VP7QUYIDab2Ms1wQSeriA/view?usp=sharing"
                   target="_blank"
                   onClick={toggleDocList}
                   className="block flex-grow text-xl font-semibold hover:cursor-pointer hover:bg-green-400"
@@ -150,7 +150,7 @@ function AboutPage() {
               </li>
               <li className="flex">
                 <a
-                  href="https://docs.google.com/document/d/17oxnr4m4AVs24sIe2BBLOxzPnGhIb2by/edit"
+                  href="https://docs.google.com/document/d/1U8Vas8_CEI6PtbXNCh1260x7UMxPfU2v/edit?usp=sharing&ouid=116006880065108284248&rtpof=true&sd=true"
                   target="_blank"
                   onClick={toggleDocList}
                   className="block flex-grow text-xl font-semibold hover:cursor-pointer hover:bg-green-400"
