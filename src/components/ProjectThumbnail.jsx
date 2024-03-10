@@ -1,5 +1,3 @@
-import "../assets/project-thumbnails/url-shortener.png";
-
 function ProjectThumbnail({ handleClick, project }) {
   {
     /* Assume 'project' is an object with this structure
