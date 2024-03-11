@@ -1,18 +1,15 @@
-import NavBar from "./components/NavBar";
-import AboutPage from "./pages/AboutPage";
-import LandingPage from "./pages/LandingPage";
-import ProjectsPage from "./pages/ProjectsPage/ProjectsPage.jsx";
-import ContactPage from "./pages/ContactPage";
+import Index from "./pages/IndexPage/Index";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import NotFound from "./pages/NotFound";
 
 function App() {
   return (
-    <>
-      <NavBar />
-      <LandingPage />
-      <AboutPage />
-      <ProjectsPage />
-      <ContactPage />
-    </>
+    <Router>
+      <Routes>
+        <Route path="/" element={<Index />} />
+        <Route path="*" element={<NotFound />} />
+      </Routes>
+    </Router>
   );
 }
 

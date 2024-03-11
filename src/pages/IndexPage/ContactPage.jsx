@@ -1,5 +1,5 @@
-import ContactForm from "../components/ContactForm";
-import Footer from "../components/Footer";
+import ContactForm from "../../components/ContactForm";
+import Footer from "../../components/Footer";
 
 function ContactPage() {
   return (
