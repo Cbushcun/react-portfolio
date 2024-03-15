@@ -14,9 +14,9 @@ function NavBar() {
   return (
     <nav
       id="navBar"
-      className="fixed top-0 z-[100] flex w-screen flex-col overflow-hidden font-bold text-stone-200 backdrop-blur-sm"
+      className="fixed top-0 z-[100] flex w-screen flex-col font-bold text-stone-200 backdrop-blur-sm"
     >
-      <div className="flex justify-between bg-slate-950 text-xl lg:bg-transparent">
+      <div className="flex justify-between bg-stone-950 text-xl lg:bg-transparent">
         <Link
           to="landing"
           spy={true}
@@ -71,7 +71,7 @@ function NavBar() {
       <ul
         ref={navListRef}
         id="navList"
-        className="fixed top-[53px] -z-50 w-full -translate-y-full bg-slate-900 text-center  text-3xl font-semibold transition duration-150 lg:top-0"
+        className="fixed top-[53px] -z-50 w-full -translate-y-full bg-stone-700/45 text-center  text-3xl font-semibold backdrop-blur-lg transition duration-150 lg:top-0"
       >
         <li>
           <Link
@@ -80,7 +80,7 @@ function NavBar() {
             smooth={true}
             onClick={toggleNav}
             offset={-52}
-            className="block py-2 hover:cursor-pointer hover:bg-slate-800"
+            className="block py-2 hover:cursor-pointer hover:bg-stone-950"
           >
             ABOUT
           </Link>
@@ -92,7 +92,7 @@ function NavBar() {
             smooth={true}
             onClick={toggleNav}
             offset={-52}
-            className="block py-2 hover:cursor-pointer hover:bg-slate-800"
+            className="block py-2 hover:cursor-pointer hover:bg-stone-950"
           >
             PROJECTS
           </Link>
@@ -104,7 +104,7 @@ function NavBar() {
             smooth={true}
             onClick={toggleNav}
             offset={20}
-            className="block py-2 hover:cursor-pointer hover:bg-slate-800"
+            className="block py-2 hover:cursor-pointer hover:bg-stone-950"
           >
             CONTACT
           </Link>
