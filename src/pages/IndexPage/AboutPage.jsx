@@ -92,6 +92,7 @@ function AboutPage() {
                 <a
                   href="https://clayson1.wixsite.com/capstoneproject"
                   className="transition duration-150 hover:text-green-400"
+                  target="_blank"
                 >
                   Kennesaw State University | IT Capstone Course
                 </a>
@@ -104,7 +105,8 @@ function AboutPage() {
               </h4>
               <h5 className="text-2xl font-semibold underline opacity-75">
                 <a
-                  href="https://www.freecodecamp.org/"
+                  href="https://www.freecodecamp.org/certification/cbushcun/responsive-web-design"
+                  target="_blank"
                   className="transition duration-150 hover:text-green-400"
                 >
                   freeCodeCamp.org
@@ -119,6 +121,7 @@ function AboutPage() {
               <h5 className="text-2xl font-semibold underline opacity-75">
                 <a
                   href="https://www.kennesaw.edu/degrees-programs/bachelor-degrees/information-technology.php?major=Bachelor+of+Science+in+Information+Technology+&url=https%3A%2F%2Fwww.kennesaw.edu%2Fdegrees-programs%2Fbachelor-degrees%2Finformation-technology.php"
+                  target="_blank"
                   className="transition duration-150 hover:text-green-400"
                 >
                   Kennesaw State University

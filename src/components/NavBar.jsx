@@ -14,7 +14,7 @@ function NavBar() {
   return (
     <nav
       id="navBar"
-      className="fixed top-0 z-[100] flex w-screen flex-col overflow-hidden font-bold text-stone-200"
+      className="fixed top-0 z-[100] flex w-screen flex-col overflow-hidden font-bold text-stone-200 backdrop-blur-sm"
     >
       <div className="flex justify-between bg-slate-950 text-xl lg:bg-transparent">
         <Link
