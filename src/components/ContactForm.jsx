@@ -42,7 +42,7 @@ function ContactForm() {
         <h1 className="text-5xl font-semibold">Contact Me</h1>
         <div className="flex justify-center gap-5">
           <div>
-            <a href="https://www.linkedin.com/in/chrisbushcun/">
+            <a href="https://www.linkedin.com/in/chrisbushcun/" target="_blank">
               <i className="fa-brands fa-linkedin"></i> /chrisbushcun
             </a>
           </div>

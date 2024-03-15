@@ -7,7 +7,8 @@ function ProjectThumbnail({ handleClick, project }) {
       "technologies": "",
       "designer": "",
       "imgLink": "",
-      "repoLink": ""
+      "repoLink": "",
+      hrefLink: ""
     }
 */
   }

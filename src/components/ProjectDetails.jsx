@@ -4,6 +4,7 @@ function ProjectDetails({
   frameworks,
   designer,
   repoLink,
+  hrefLink,
   onClick,
 }) {
   return (
@@ -47,7 +48,7 @@ function ProjectDetails({
             <i className="fa-brands fa-github text-6xl"></i>View Repo
           </a>
           <a
-            href="/projects/link-shortener"
+            href={hrefLink}
             onClick={onClick}
             target="_blank"
             className="mx-auto flex w-28 flex-col rounded-xl py-2 text-center transition duration-150 hover:bg-stone-200/25"
