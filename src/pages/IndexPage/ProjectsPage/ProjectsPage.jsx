@@ -64,6 +64,13 @@ function ProjectsPage() {
               handleClick={() => projectOnClick(project)}
             />
           ))}
+          <a
+            href="https://www.projects.businessbybush.com/"
+            className="flex h-56 w-full max-w-52 flex-col gap-2 rounded-xl bg-stone-200 bg-opacity-0 px-3 outline-1 transition duration-150 hover:bg-opacity-5 hover:outline active:bg-opacity-10"
+          >
+            <i className="fa-solid fa-laptop-code m-auto bg-cover bg-center text-7xl text-green-400"></i>
+            <p className="w-full text-center">More Projects...</p>
+          </a>
         </div>
         <div className="mt-auto flex h-6 w-full rounded-b-lg bg-slate-700/45">
           <p className="ml-auto pb-2 pr-2">Made with Tailwind</p>

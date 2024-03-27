@@ -39,12 +39,12 @@ function AboutPage() {
         </div>
         <div className="my-auto flex flex-col gap-3 p-5 indent-8 font-semibold sm:text-lg ">
           <p>
-            I am a current Kennesaw State University student set to graduate in
-            May 2024 with a Bachelor's of Science in Information Technology.
-            During my educational journey, I've gained experience in various
-            technologies and applications allowing me to be adaptive and work
-            with a team to meet deadlines. Building upon the knowledge I've
-            obtained through college and other resources such as{" "}
+            I'm currently a student at Kennesaw State University set to graduate
+            in May 2024 with a Bachelor's of Science in Information Technology.
+            During my journey, I've gained experience in various technologies,
+            applications, and team-focused work. Building upon the knowledge
+            I've obtained through college and in my free time through resources
+            such as{" "}
             <a
               href="https://www.freecodecamp.org/"
               target="_blank"
@@ -60,19 +60,18 @@ function AboutPage() {
             >
               iCodeThis.com
             </a>
-            , I seek to help build effecient and scalable web applications as I
-            continue to develop and grow my skillset
+            , I would like to take what skills I have learned and apply them to
+            my daily life as I strive to reach new heights and expand my
+            skillset.
           </p>
           <p>
-            In my available time and continuing past graduation, I seek to
-            expand my knowledge of new technologies and practice through
-            obtaining new certifications to grow myself as a developer. With a
-            primary interest in front-end design and development, I seek to
-            become a full-stack developer continuing to build upon the knowledge
-            I've obtained thus far. I am eager to develop my passion into a
-            career and learn new technologies and practices in a professional
-            environment with a company who will invest into me and allow me to
-            flourish.
+            Following my graduation, I will be expanding my knowledge of new
+            technologies and practices through obtaining certifications, growing
+            myself as a developer. With my primary interest being in front-end
+            design and development, I am also capable of utilizing SQL for
+            database queries with some full-stack webapp experience. I am eager
+            to turn my passion into a career and learn new technologies in a
+            professional environment willing to invest in my growth.
           </p>
         </div>
       </div>
