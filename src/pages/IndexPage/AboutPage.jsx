@@ -46,7 +46,7 @@ function AboutPage() {
             I've obtained through college and in my free time through resources
             such as{" "}
             <a
-              href="https://www.freecodecamp.org/"
+              href="https://www.freecodecamp.org/cbushcun"
               target="_blank"
               className="text-green-400 underline hover:text-green-600"
             >
@@ -54,7 +54,7 @@ function AboutPage() {
             </a>{" "}
             and{" "}
             <a
-              href="https://icodethis.com/"
+              href="https://icodethis.com/Chrizztian"
               target="_blank"
               className="text-green-400 underline hover:text-green-600"
             >
