@@ -1,6 +1,15 @@
 {
   "projects": [
     {
+      "name": "Weather API App",
+      "desc": "Weather application designed to utilize OpenWeatherMap API to display weather data for a given city. Developed and designed by myself",
+      "technologies": "ReactJS, OpenWeatherAPI, TailwindCSS. Axios",
+      "designer": "Myself",
+      "imgLink": "https://i.imgur.com/jFxMmpm.png",
+      "repoLink": "https://github.com/Cbushcun/react-projects-site/tree/main/src/Projects/WeatherApp",
+      "hrefLink": "https://projects.businessbybush.com/weather"
+    },
+    {
       "name": "Link Shortener",
       "desc": "A simple URL shortening app created using React to familiarize myself with axios and what to expect of it. (Original project in TSX as shown in repo, Live demo is JSX)",
       "technologies": "React, Boostsrap, Axios, TinyURL API",
