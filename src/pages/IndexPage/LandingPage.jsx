@@ -39,14 +39,14 @@ function LandingPage() {
                 <a
                   href="https://www.linkedin.com/in/chrisbushcun/"
                   target="_blank"
-                  className="opacity-60 transition duration-300 hover:scale-110 hover:opacity-100"
+                  className="opacity-60 transition duration-500 hover:scale-110 hover:opacity-100"
                 >
                   <i className="fa-brands fa-linkedin"></i>
                 </a>
                 <a
                   href="https://github.com/Cbushcun"
                   target="_blank"
-                  className="opacity-60 transition duration-300 hover:scale-110 hover:opacity-100"
+                  className="opacity-60 transition duration-500 hover:scale-110 hover:opacity-100"
                 >
                   <i className="fa-brands fa-square-github"></i>
                 </a>
@@ -70,7 +70,7 @@ function LandingPage() {
               spy={true}
               smooth={true}
               offset={offset}
-              className="my-2 place-self-center text-6xl opacity-60 transition duration-300 ease-in-out hover:scale-110 hover:cursor-pointer hover:opacity-100 sm:text-5xl lg:text-3xl"
+              className="my-2 place-self-center text-6xl opacity-60 transition duration-500 ease-in-out hover:scale-110 hover:cursor-pointer hover:opacity-100 sm:text-5xl lg:text-3xl"
             >
               <i className="fa-solid fa-circle-arrow-down"></i>
             </Link>

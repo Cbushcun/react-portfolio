@@ -34,7 +34,7 @@ function NavBar() {
               smooth={true}
               offset={1}
               activeClass="text-green-400"
-              className="place-self-center transition duration-150 hover:cursor-pointer hover:text-green-400"
+              className="place-self-center transition duration-500 hover:cursor-pointer hover:text-green-400"
             >
               ABOUT
             </Link>
@@ -46,7 +46,7 @@ function NavBar() {
               smooth={true}
               offset={1}
               activeClass="text-green-400"
-              className="place-self-center transition duration-150 hover:cursor-pointer hover:text-green-400"
+              className="place-self-center transition duration-500 hover:cursor-pointer hover:text-green-400"
             >
               PROJECTS
             </Link>
@@ -58,20 +58,20 @@ function NavBar() {
               smooth={true}
               offset={1}
               activeClass="text-green-400"
-              className="place-self-center transition duration-150 hover:cursor-pointer hover:text-green-400"
+              className="place-self-center transition duration-500 hover:cursor-pointer hover:text-green-400"
             >
               CONTACT
             </Link>
           </li>
         </ul>
         <button className="px-5 py-2 lg:hidden" onClick={toggleNav}>
-          <i className="fa-solid fa-bars text-4xl transition duration-150 hover:text-green-400"></i>
+          <i className="fa-solid fa-bars text-4xl transition duration-500 hover:text-green-400"></i>
         </button>
       </div>
       <ul
         ref={navListRef}
         id="navList"
-        className="fixed top-[53px] -z-50 w-full -translate-y-full bg-stone-700/45 text-center  text-3xl font-semibold backdrop-blur-lg transition duration-150 lg:top-0"
+        className="fixed top-[53px] -z-50 w-full -translate-y-full bg-stone-700/45 text-center  text-3xl font-semibold backdrop-blur-lg transition duration-500 lg:top-0"
       >
         <li>
           <Link
@@ -80,7 +80,7 @@ function NavBar() {
             smooth={true}
             onClick={toggleNav}
             offset={-52}
-            className="block py-2 hover:cursor-pointer hover:bg-stone-950"
+            className="block py-2 transition duration-500 hover:cursor-pointer hover:bg-stone-950"
           >
             ABOUT
           </Link>
@@ -92,7 +92,7 @@ function NavBar() {
             smooth={true}
             onClick={toggleNav}
             offset={-52}
-            className="block py-2 hover:cursor-pointer hover:bg-stone-950"
+            className="block py-2 transition duration-500 hover:cursor-pointer hover:bg-stone-950"
           >
             PROJECTS
           </Link>
@@ -104,7 +104,7 @@ function NavBar() {
             smooth={true}
             onClick={toggleNav}
             offset={20}
-            className="block py-2 hover:cursor-pointer hover:bg-stone-950"
+            className="block py-2 transition duration-500 hover:cursor-pointer hover:bg-stone-950"
           >
             CONTACT
           </Link>
