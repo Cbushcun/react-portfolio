@@ -1,5 +1,5 @@
 import backgroundImage from "../../assets/images/background1.jpg";
-import portrait from "../../assets/images/portrait.jpg";
+import characterImg from "../../assets/images/sitting-character.png";
 import { Link } from "react-scroll";
 import { useState, useEffect } from "react";
 
@@ -58,10 +58,11 @@ function LandingPage() {
             </h5>
           </div>
           <img
-            src={portrait}
-            alt="portrait of christian bush"
+            src={characterImg}
+            alt="drawn image of an characters sitting on the floor resembling the developer"
             loading="lazy"
-            className="col-start-7 row-start-4 ml-auto max-h-52 min-h-52 min-w-52 max-w-52 translate-x-10 scale-150 rounded-full object-cover object-top shadow-[0_0_10px_1px] shadow-fuchsia-600/50 sm:col-start-9 sm:row-start-3 md:translate-x-0"
+            className="col-span-7 col-start-6 row-start-3 w-full sm:col-span-6 sm:row-start-2 lg:col-span-3 lg:col-start-8 lg:row-span-3 lg:row-start-3 xl:col-span-3 xl:col-start-8 xl:row-start-3 2xl:col-span-3 2xl:col-start-8 2xl:row-span-2 2xl:row-start-2
+            "
           />
           <div className="col-span-2 col-start-6 row-start-6 mx-auto my-2 animate-bounce place-self-end">
             <Link
