@@ -28,26 +28,34 @@ function LandingPage() {
         style={{ backgroundImage: `url(${backgroundImage})` }}
       >
         <div className="grid h-full w-full grid-cols-12 grid-rows-6 justify-between overflow-hidden pt-14 backdrop-blur">
-          <div className="col-span-9 ml-10 mt-5 sm:col-span-8 sm:row-start-2 lg:col-start-2 lg:row-span-2 lg:row-start-3 xl:col-start-3 2xl:col-start-4">
+          <div className="col-span-9 ml-10 mt-5 sm:col-span-7 sm:row-start-2  lg:col-start-2 lg:row-span-2 lg:row-start-3 xl:col-start-3 2xl:col-start-4">
             <h6 className="text-md text-green-400">HELLO, MY NAME IS...</h6>
             <h1 className="text-7xl font-bold">CHRISTIAN BUSH</h1>
-            <h4 className="text-3xl font-thin text-green-400">
-              FRONT-END DEVELOPER
+            <h4 className="font-semibold text-green-400">
+              BACHELOR OF SCIENCE IN INFORMATION TECHNOLOGY | MAY 2024
             </h4>
-            <h5 className="opacity-50">
-              <i className="fa-solid fa-location-dot"></i> Powder Springs, GA
+            <h5 className="flex">
+              <div className="mr-2 flex gap-2 text-2xl md:text-3xl">
+                <a
+                  href="https://www.linkedin.com/in/chrisbushcun/"
+                  target="_blank"
+                  className="opacity-60 transition duration-300 hover:scale-110 hover:opacity-100"
+                >
+                  <i className="fa-brands fa-linkedin"></i>
+                </a>
+                <a
+                  href="https://github.com/Cbushcun"
+                  target="_blank"
+                  className="opacity-60 transition duration-300 hover:scale-110 hover:opacity-100"
+                >
+                  <i className="fa-brands fa-square-github"></i>
+                </a>
+              </div>
+              <span className="my-auto flex gap-1 opacity-60">
+                <i className="fa-solid fa-location-dot my-auto"></i>
+                <span>Powder Springs, GA</span>
+              </span>
             </h5>
-            <div className="flex gap-5 text-7xl md:text-6xl">
-              <a
-                href="https://www.linkedin.com/in/chrisbushcun/"
-                target="_blank"
-              >
-                <i className="fa-brands fa-linkedin transition duration-150 hover:scale-110"></i>
-              </a>
-              <a href="https://github.com/Cbushcun" target="_blank">
-                <i className="fa-brands fa-square-github transition duration-150 hover:scale-110"></i>
-              </a>
-            </div>
           </div>
           <img
             src={portrait}
@@ -61,7 +69,7 @@ function LandingPage() {
               spy={true}
               smooth={true}
               offset={offset}
-              className="my-2 place-self-center text-6xl hover:cursor-pointer"
+              className="my-2 place-self-center text-6xl opacity-60 transition duration-300 ease-in-out hover:scale-110 hover:cursor-pointer hover:opacity-100 sm:text-5xl lg:text-3xl"
             >
               <i className="fa-solid fa-circle-arrow-down"></i>
             </Link>
