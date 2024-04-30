@@ -15,7 +15,7 @@ Side scroller animations in Skills area
 
 .scroller[data-animated="true"] .scroller_inner {
   flex-wrap: nowrap;
-  animation: scroll 20s linear infinite;
+  animation: scroll 25s linear infinite;
 }
 
 .scroller_inner {

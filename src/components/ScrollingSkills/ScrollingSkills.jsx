@@ -27,13 +27,7 @@ function ScrollingSkills() {
           Tailwind
         </li>
         <li className="min-w-fit rounded-3xl bg-stone-700 px-3 py-2 shadow-lg shadow-black">
-          Bootstrap 5
-        </li>
-        <li className="min-w-fit rounded-3xl bg-stone-700 px-3 py-2 shadow-lg shadow-black">
           Linux
-        </li>
-        <li className="min-w-fit rounded-3xl bg-stone-700 px-3 py-2 shadow-lg shadow-black">
-          Flask
         </li>
         <li className="min-w-fit rounded-3xl bg-stone-700 px-3 py-2 shadow-lg shadow-black">
           Vite
@@ -45,13 +39,28 @@ function ScrollingSkills() {
           GitHub
         </li>
         <li className="min-w-fit rounded-3xl bg-stone-700 px-3 py-2 shadow-lg shadow-black">
-          MS Office
+          Office
         </li>
         <li className="min-w-fit rounded-3xl bg-stone-700 px-3 py-2 shadow-lg shadow-black">
-          MS Teams
+          Teams
         </li>
         <li className="min-w-fit rounded-3xl bg-stone-700 px-3 py-2 shadow-lg shadow-black">
           Azure
+        </li>
+        <li className="min-w-fit rounded-3xl bg-stone-700 px-3 py-2 shadow-lg shadow-black">
+          Customer Support
+        </li>
+        <li className="min-w-fit rounded-3xl bg-stone-700 px-3 py-2 shadow-lg shadow-black">
+          Conflict Resolution
+        </li>
+        <li className="min-w-fit rounded-3xl bg-stone-700 px-3 py-2 shadow-lg shadow-black">
+          Risk Mitigation
+        </li>
+        <li className="min-w-fit rounded-3xl bg-stone-700 px-3 py-2 shadow-lg shadow-black">
+          Attentiveness
+        </li>
+        <li className="min-w-fit rounded-3xl bg-stone-700 px-3 py-2 shadow-lg shadow-black">
+          Detail Oriented
         </li>
       </ul>
     </div>

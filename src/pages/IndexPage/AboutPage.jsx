@@ -39,20 +39,36 @@ function AboutPage() {
         </div>
         <div className="my-auto flex flex-col gap-3 p-5 indent-8 font-semibold sm:text-lg ">
           <p>
-            I'm currently a student at Kennesaw State University set to graduate
-            in May 2024 with a Bachelor's of Science in Information Technology.
-            During my journey, I've gained experience in various technologies,
-            applications, and team-focused work. Building upon the knowledge
-            I've obtained through college and in my free time through resources
-            such as{" "}
+            Upcoming graduate from Kennesaw State University with a Bachelor's
+            in Information Technology and a passion for web development. In my
+            studies, I have gained hands-on experience with varius technologies
+            such as Wireshark, Azure, FileZilla, VSCode, SQL, and VMWare.
+            Alongside my education I was employed as a Customer Service
+            representative at various locations from 2017 to 2023. In these
+            roles I've developed skills in customer service, communication,
+            conflict resolution, and problem-solving developing a strong work
+            ethic and a desire to learn new skills and technologies. Before
+            attending Kennesaw State University, the high school I attended was
+            able to leave me with various technical skills contirbuting to my
+            success such as Microsoft Office, Adobe Creative Suite, AutoCad, and
+            basic HTML/CSS through courses in graphic design, 3D Modeling, and
+            programming. , I would like to take what skills I have learned and
+            apply them to my daily life as I strive to reach new heights and
+            expand my skillset.
+          </p>
+          <p>
+            As a result of my experiences, I am actively seeking ways for me to
+            sharpen my skills in web development with intentions of becoming a
+            full-stack developer. I currently enjoy to utilize ReactJS and
+            TailwindCSS to build web applications while also using sites such as{" "}
             <a
               href="https://www.freecodecamp.org/cbushcun"
               target="_blank"
               className="text-green-400 underline hover:text-green-600"
             >
               freeCodeCamp.org
-            </a>{" "}
-            and{" "}
+            </a>
+            {", "}
             <a
               href="https://icodethis.com/Chrizztian"
               target="_blank"
@@ -60,18 +76,19 @@ function AboutPage() {
             >
               iCodeThis.com
             </a>
-            , I would like to take what skills I have learned and apply them to
-            my daily life as I strive to reach new heights and expand my
-            skillset.
-          </p>
-          <p>
-            Following my graduation, I will be expanding my knowledge of new
-            technologies and practices through obtaining certifications, growing
-            myself as a developer. With my primary interest being in front-end
-            design and development, I am also capable of utilizing SQL for
-            database queries with some full-stack webapp experience. I am eager
-            to turn my passion into a career and learn new technologies in a
-            professional environment willing to invest in my growth.
+            {", and "}
+            <a
+              href="https://www.hackerrank.com/profile/chrizztianbush"
+              target="_blank"
+              className="text-green-400 underline hover:text-green-600"
+            >
+              HackerRank.com
+            </a>{" "}
+            to further my knowledge and understanding of web development. As I
+            anticipate my graduation in May 2024, I am excited to utilize my
+            skills and degree to obtain a position where I can continue to grow
+            and develop as a professional alongside furthering my experience in
+            web development.
           </p>
         </div>
       </div>
@@ -81,7 +98,7 @@ function AboutPage() {
             EXPERIENCE
           </p>
         </div>
-        <div className="flex flex-col justify-between gap-10 p-5 pb-0">
+        <div className="my-auto flex flex-col justify-between gap-10 p-5 pb-0">
           <div className="flex flex-col gap-3">
             <div>
               <h4 className="text-3xl font-bold">
@@ -172,11 +189,6 @@ function AboutPage() {
         </div>
         <div className="fill-14 my-auto flex flex-col py-3">
           <div className="flex flex-wrap justify-center gap-5">
-            <img
-              src={bootstrapLogo}
-              alt="bootstrap 5 logo"
-              className={`${iconHeight}`}
-            />
             <img src={cssLogo} alt="css3 logo" className={`${iconHeight}`} />
             <img
               src={githubLogo}
@@ -188,7 +200,6 @@ function AboutPage() {
               alt="javascript logo"
               className={`${iconHeight}`}
             />
-            <img src={reactLogo} alt="react logo" className={`${iconHeight}`} />
             <img
               src={tsLogo}
               alt="typescript logo"
@@ -211,7 +222,6 @@ function AboutPage() {
               alt="python logo"
               className={`${iconHeight}`}
             />
-            <img src={sassLogo} alt="sass logo" className={`${iconHeight}`} />
             <img src={sqlLogo} alt="sql logo" className={`${iconHeight}`} />
           </div>
           <ScrollingSkills />

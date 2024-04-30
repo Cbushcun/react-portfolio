@@ -24,15 +24,17 @@ function Index() {
           <BeatLoader color="#4ADE80" speedMultiplier={0.5} />
         </div>
       </section>
-      <div
-        className={`${loading ? "opacity-0" : "opacity-100"} transition duration-1000`}
-      >
-        <NavBar />
-        <LandingPage />
-        <AboutPage />
-        <ProjectsPage />
-        <ContactPage />
-      </div>
+      {!loading && (
+        <div
+          className={`${loading ? "opacity-0" : "opacity-100"} transition duration-1000`}
+        >
+          <NavBar />
+          <LandingPage />
+          <AboutPage />
+          <ProjectsPage />
+          <ContactPage />
+        </div>
+      )}
     </>
   );
 }
