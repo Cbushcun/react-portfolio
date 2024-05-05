@@ -37,7 +37,7 @@ function AboutPage() {
             ABOUT
           </p>
         </div>
-        <div className="my-auto flex flex-col gap-3 p-5 indent-8 font-semibold sm:text-lg ">
+        <div className="my-auto flex flex-col gap-3 p-5 indent-8 font-semibold">
           <p>
             Upcoming graduate from Kennesaw State University with a Bachelor's
             in Information Technology and a passion for web development. In my
@@ -50,11 +50,11 @@ function AboutPage() {
             ethic and a desire to learn new skills and technologies. Before
             attending Kennesaw State University, the high school I attended was
             able to leave me with various technical skills contirbuting to my
-            success such as Microsoft Office, Adobe Creative Suite, AutoCad, and
-            basic HTML/CSS through courses in graphic design, 3D Modeling, and
-            programming. , I would like to take what skills I have learned and
-            apply them to my daily life as I strive to reach new heights and
-            expand my skillset.
+            success such as Microsoft Office, Adobe Creative Suite, AutoCad,
+            Python, HTML, and CSS through courses in graphic design, 3D
+            Modeling, and programming. I would like to take what skills I have
+            learned and apply them to my daily life as I strive to reach new
+            heights and expand my skillset.
           </p>
           <p>
             As a result of my experiences, I am actively seeking ways for me to
