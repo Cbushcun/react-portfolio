@@ -37,58 +37,28 @@ function AboutPage() {
             ABOUT
           </p>
         </div>
-        <div className="my-auto flex flex-col gap-3 p-5 indent-8 font-semibold">
+        <div className="my-auto flex flex-col gap-3 text-balance p-5 indent-8 font-semibold leading-loose">
           <p>
-            Upcoming graduate from Kennesaw State University with a Bachelor's
-            in Information Technology and a passion for web development. In my
-            studies, I have gained hands-on experience with varius technologies
-            such as Wireshark, Azure, FileZilla, VSCode, SQL, and VMWare.
-            Alongside my education I was employed as a Customer Service
-            representative at various locations from 2017 to 2023. In these
-            roles I've developed skills in customer service, communication,
-            conflict resolution, and problem-solving developing a strong work
-            ethic and a desire to learn new skills and technologies. Before
-            attending Kennesaw State University, the high school I attended was
-            able to leave me with various technical skills contirbuting to my
-            success such as Microsoft Office, Adobe Creative Suite, AutoCad,
-            Python, HTML, and CSS through courses in graphic design, 3D
-            Modeling, and programming. I would like to take what skills I have
-            learned and apply them to my daily life as I strive to reach new
-            heights and expand my skillset.
+            Hello and welcome! I’m Christian Bush-Cunningham, a recent
+            Information Technology graduate from Kennesaw State University with
+            a passion for blending technology with practical applications.
+            Throughout my academic career, I’ve honed my skills in programming,
+            database management, and network configuration, culminating in a
+            capstone project where I developed and launched a web application
+            using HTML, CSS, JavaScript, and Python. My academic exposure to
+            Oracle SQL, VMware, and Azure has provided me with a foundational
+            understanding, preparing me to tackle real-world challenges and
+            enhance my proficiency in these technologies.
           </p>
           <p>
-            As a result of my experiences, I am actively seeking ways for me to
-            sharpen my skills in web development with intentions of becoming a
-            full-stack developer. I currently enjoy to utilize ReactJS and
-            TailwindCSS to build web applications while also using sites such as{" "}
-            <a
-              href="https://www.freecodecamp.org/cbushcun"
-              target="_blank"
-              className="text-green-400 underline hover:text-green-600"
-            >
-              freeCodeCamp.org
-            </a>
-            {", "}
-            <a
-              href="https://icodethis.com/Chrizztian"
-              target="_blank"
-              className="text-green-400 underline hover:text-green-600"
-            >
-              iCodeThis.com
-            </a>
-            {", and "}
-            <a
-              href="https://www.hackerrank.com/profile/chrizztianbush"
-              target="_blank"
-              className="text-green-400 underline hover:text-green-600"
-            >
-              HackerRank.com
-            </a>{" "}
-            to further my knowledge and understanding of web development. As I
-            anticipate my graduation in May 2024, I am excited to utilize my
-            skills and degree to obtain a position where I can continue to grow
-            and develop as a professional alongside furthering my experience in
-            web development.
+            Driven by curiosity and a relentless pursuit of knowledge, I am
+            eager to expand my expertise in full-stack development and explore
+            innovative ways to integrate various technologies. My goal is to
+            develop personalized software and systems that not only solve
+            complex problems but also bring joy and convenience to everyday
+            tasks. I am looking for opportunities to grow professionally, engage
+            with like-minded technologists, and contribute to projects that push
+            the boundaries of what technology can achieve.
           </p>
         </div>
       </div>
